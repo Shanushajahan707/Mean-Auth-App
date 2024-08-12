@@ -1,0 +1,13 @@
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+<div class="main bg-gray-400 p-8 rounded-lg shadow-lg ">
+  <div class="mb-4">
+    <h1 class="text-3xl font-bold text-blue-600">{{title}}</h1>
+    <h2 class="text-xl font-semibold text-gray-800">CHECK YOUR PROFILE</h2>
+  </div>
+  <div>
+    <button
+      class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out"
+      (click)="getProfile()">PROFILE</button>
+  </div>
+</div>
